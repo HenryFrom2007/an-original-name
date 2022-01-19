@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sidebar{
@@ -7,4 +8,61 @@
     height: 100%;
     background-color: #BC62FE;
     color: #00FFB2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-top,
+.sidebar-center,
+.sidebar-bottom{
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b123b1;
+}
+
+.sidebar-bottom{
+    border: none;
+    justify-content: center;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.list-item{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list-item:hover,
+.list-item.active{
+    background-color: rgb(255, 87, 143);
+    color: white;
+}
+
+.color-box{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #00FFB2;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.purple{
+    background-color: #b123b1;
+}
+
+.pink{
+    background-color: #ff578f;
 }
