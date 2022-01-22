@@ -66,3 +66,15 @@
 .pink{
     background-color: #ff578f;
 }
+
+
+
+.sidebar.pink{
+    background-color: #ff578f;
+    color: #00FFB2;
+}
+
+.list-item:hover.pink,
+.list-item.active.pink{
+    background-color: #b123b1;
+}
